@@ -14,7 +14,7 @@ stage ('building the code')
 {
 steps
 {
-sh 'touch abc.txt'
+sh 'touch manipulate.txt'
 }
 }
 stage ('testing the code')
